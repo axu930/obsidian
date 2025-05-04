@@ -1,7 +1,7 @@
 ---
 title: Welcome to Quartz
 ---
-
-asdfasdfasd 
-
+Reading list: [[Reading List]]
+Projects: [[Projects]]
+Blog notes: [[Blog Notes]]
 
