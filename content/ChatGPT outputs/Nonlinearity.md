@@ -6,10 +6,6 @@ I am mostly interested in nonlinearity in the context of generalization capacity
 
 # Sources 
 
-- **Philipp, G. & Carbonell, J. (2019)**  
-    _The Nonlinearity Coefficient – A Practical Guide to Neural Network Nonlinearity Measurement._  
-    [arXiv:1812.10032](https://arxiv.org/abs/1812.10032)
-    
 - **Bouniot, Q., Glaude, T., Le Roux, N., & Scieur, D. (2023)**  
     _Nonlinearity in Deep Learning: A Geometric Perspective._  
     [arXiv:2306.09365](https://arxiv.org/abs/2306.09365)
@@ -22,17 +18,24 @@ I am mostly interested in nonlinearity in the context of generalization capacity
     _Sensitivity and Generalization in Neural Networks: An Empirical Study._  
     [arXiv:1802.08760](https://arxiv.org/abs/1802.08760)
     
-- **Kileel, J., Trager, M., & Shmakov, A. (2019)**  
-    _Expressive Power of Deep Polynomial Neural Networks._  
-    [arXiv:1905.12217](https://arxiv.org/abs/1905.12217)
-    
-- **Sarkar, S., Zhang, X., Arpit, D., & Bengio, Y. (2019)**  
-    _Enforcing Linearity in Deep Networks Improves Robustness._  
-    [arXiv:1906.06762](https://arxiv.org/abs/1906.06762)
-    
 - **Bartlett, P. L., Foster, D. J., & Telgarsky, M. J. (2017)**  
     _Spectrally-Normalized Margin Bounds for Neural Networks._  
     [arXiv:1706.08498](https://arxiv.org/abs/1706.08498)
+    
+- **Philipp, G. (2021)**  
+    _The Nonlinearity Coefficient – A Practical Guide to Neural Architecture Design._  
+    [arXiv:2105.12210](https://arxiv.org/abs/2105.12210)  
+    This paper introduces the Nonlinearity Coefficient (NLC), a scalar metric for measuring nonlinearity in neural networks. It demonstrates that the NLC, computed at random initialization, is a strong predictor of test error post-training, providing a tool for zero-shot architecture evaluation.
+    
+- **Kileel, J., Trager, M., & Bruna, J. (2019)**  
+    _On the Expressive Power of Deep Polynomial Neural Networks._  
+    [arXiv:1905.12207](https://arxiv.org/abs/1905.12207)  
+    This study examines deep neural networks with polynomial activations, analyzing their expressive power through the lens of algebraic geometry. It proposes the dimension of the associated algebraic variety as a measure of expressiveness.
+    
+- **Sarkar, A., Gupta, N. K., & Iyengar, R. (2019)**  
+    _Enforcing Linearity in DNN Succours Robustness and Adversarial Image Generation._  
+    [arXiv:1910.08108](https://arxiv.org/abs/1910.08108)  
+    This paper explores how enforcing linearity in deep neural networks can enhance robustness against adversarial attacks and improve adversarial image generation. It introduces methods to impose linearity in transformed input and feature spaces, demonstrating improved model stability.
 
 # Output
 
