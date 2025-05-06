@@ -1,9 +1,12 @@
 ---
-title: Welcome to Quartz
+title: Homepage
 ---
 Reading list: [[Reading List]]
 
+Notes: [[Notes]]
+
 Projects: [[Projects]]
 
-Blog notes: [[Blog Notes]]
+Blog Drafts: [[Blog Drafts]]
+
 

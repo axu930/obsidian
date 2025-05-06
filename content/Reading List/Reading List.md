@@ -11,5 +11,5 @@
 ## Quant Finance
 
 
-## ChatGPT outputs
-- [[Nonlinearity]] for theoretical ML models. 
+
+
