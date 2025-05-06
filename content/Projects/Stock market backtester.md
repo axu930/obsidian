@@ -1,3 +1,4 @@
+TODO list: [[Stock market backtester TODO]]
 # Initial overview
 Some things copied over from [this](https://fxgears.com/index.php?threads/python-development-environment-jacks-technology-stack.1090/) post regarding the creation of a backtester + live trading algo. 
 - It had to be flexible and each symbol I wanted to trade should be able to be dynamically added or removed during run time.

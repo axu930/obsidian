@@ -1,0 +1,1 @@
+A fun project to game AI resume screeners -- mostly GPT style screeners, but also keyword matchers.  The baseline plan is to generate resumes with 0.1-pt font white text that has mildly embellished qualifications, and see what changes make AI generate disproportionately good responses. 
