@@ -1,4 +1,3 @@
-
 Here’s a concise overview of the main families of alternatives to the standard Softmax layer in Transformer architectures, organized by their core idea:
 
 In essence, many proposals aim to either **induce sparsity** in the attention weights, **linearize** or **approximate** the Softmax computation for efficiency, or **replace** the exponential normalization altogether with other similarity measures or activation functions. The choice often trades off between computational complexity, ease of implementation, and performance on downstream tasks.
