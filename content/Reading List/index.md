@@ -1,3 +1,5 @@
+# Reading List
+A list of things I want to read
 # Statistics
 Theoretical stuff--e.g. ML theory, theoretical assurances, etc. 
 #### ML Theory

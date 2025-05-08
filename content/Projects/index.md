@@ -1,3 +1,4 @@
+# Projects
 %% Begin Waypoint %%
 - [[Adversarial AI Resumes]]
 - [[Autoregressive MONet]]

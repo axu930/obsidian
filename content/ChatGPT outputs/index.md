@@ -1,3 +1,4 @@
+# ChatGPT outputs
 A place to store the ChatGPT slop that is marginally more useful than google search. 
 
 %% Begin Waypoint %%
