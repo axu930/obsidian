@@ -5,13 +5,28 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'axu930/obsidian',
+        // from data-repo-id
+        repoId: 'R_kgDOOkdMHg',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDOOkdMHs4Cp7WM-Xg6',
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       Website: "https://axu930.github.io/",
     },
   }),
 }
+
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
