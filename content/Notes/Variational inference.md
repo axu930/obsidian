@@ -100,7 +100,21 @@ Of course, when this distribution is intractable, we can still attempt other opt
 Since this is essentially a hill climbing algorithm, a priori it can only find a local maxima, and convergence will generally be dependent on the initialization. 
 
 ## Stochastic variational inference
+TODO
 
+Inputs:
+- Joint model $p(z,x)$ 
+- Data set $x$ (i.e. samples)
+Output:
+- Joint distribution $q(z) = \prod_i q_i(z_i)$
+```
+while ELBO not converged:
+	for i in {1, 2, ... , n}:
+		update q_i(z_i) 
+	end
+	compute ELBO(q) = E[log(p(z,x))] - E[log(q(z))]
+end
+```
 
 
 

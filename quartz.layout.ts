@@ -8,8 +8,14 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.Flex({
       components: [
-        { Component: Component.Backlinks() },
-        { Component: Component.Graph() },
+        { 
+          Component: Component.Backlinks(),
+          align: 'start',
+        },
+        { 
+          Component: Component.Graph(),
+          align: 'end',
+        },
       ],
     }),
     Component.Comments({
