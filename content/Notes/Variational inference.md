@@ -31,10 +31,10 @@ KL(q(z) \| p(z \vert x)) = E_{z \sim q}[\log q(z)] - E_{z \sim q}[\log p(x,z)] +
 $$
 Therefore, we instead optimize for the argmax of the ELBO: 
 $$
-\begin{aligned}
+\begin{array}{rll}
 ELBO(q) &=  E_{z \sim q}[\log p(x,z)] - E_{z \sim q}[\log q(z)]\\
 &= E_{z \sim q}[\log p(x \vert z)] - KL(q(z) \| p(z \vert x))
-\end{aligned}
+\end{array}
 $$
 which is essentially just the KL-divergence without the dependency on the marginal evidence. Heuristically, we are finding the distribution within $\mathcal{D}$ that is closest to the posterior to $p(z\vert x)$ that also simultaneously maximizes the log-likelihoods of the sampling model. 
 
