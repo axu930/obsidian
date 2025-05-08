@@ -159,8 +159,8 @@ button.desktop-explorer {
   & div > a {
     color: var(--secondary);
     font-family: var(--headerFont);
-    font-size: 0.95rem;
-    font-weight: $semiBoldWeight;
+    font-size: 0.8rem;
+    font-weight: normal;
     line-height: 1.5rem;
     display: inline-block;
   }
@@ -182,10 +182,10 @@ button.desktop-explorer {
     font-family: var(--headerFont);
 
     & span {
-      font-size: 0.95rem;
+      font-size: 0.8rem;
       display: inline-block;
       color: var(--secondary);
-      font-weight: $semiBoldWeight;
+      font-weight: normal;
       margin: 0;
       line-height: 1.5rem;
       pointer-events: none;
