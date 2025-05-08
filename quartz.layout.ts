@@ -6,18 +6,8 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.Flex({
-      components: [
-        { 
-          Component: Component.Backlinks(),
-          align: 'start',
-        },
-        { 
-          Component: Component.Graph(),
-          align: 'end',
-        },
-      ],
-    }),
+    Component.Backlinks(),
+    Component.Graph(),
     Component.Comments({
       provider: 'giscus',
       options: {
