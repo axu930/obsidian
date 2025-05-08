@@ -93,7 +93,7 @@ $$
 ELBO(q_i) = E_i[E_{-i}[\log p(z_i \vert z_{-i} ,x)]] - E_i[\log q_i(z_i)] + \mathrm{const}
 
 $$
-and noting that the ELBO is maximized when the marginal distribution of $q_i$ is  proportional to $E_{-i}[\log p(z_i \vert z_{-i} ,x)]$. Of course, when this distribution is intractable, we can still attempt other optimization methods to update $q_i$. 
+and noting that the ELBO is maximized when the marginal distribution of $q_i$ is  proportional to $E_{-i}[\log p(z_i \vert z_{-i} ,x)]$. For example, when $p(z_i\vert z_{-i}, z)$ belongs to the exponential family . Of course, when this distribution is intractable, we can still attempt other optimization methods to update $q_i$. 
 
 Note that there is a slight limitation to this--since this is essentially a hill climbing algorithm, a priori it can only find a local maxima, and convergence will in generally be dependent on the initialization. 
 
