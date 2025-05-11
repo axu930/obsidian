@@ -24,7 +24,7 @@ I am mostly interested in nonlinearity in the context of generalization capacity
     
 - **Philipp, G. (2021)**  
     _The Nonlinearity Coefficient – A Practical Guide to Neural Architecture Design._  
-    [arXiv:2105.12210](https://arxiv.org/abs/2105.12210)  
+    [arXiv:2105.12210](https://arxiv.org/abs/2105.12210)  https://arxiv.org/pdf/1806.00179
     This paper introduces the Nonlinearity Coefficient (NLC), a scalar metric for measuring nonlinearity in neural networks. It demonstrates that the NLC, computed at random initialization, is a strong predictor of test error post-training, providing a tool for zero-shot architecture evaluation.
     
 - **Kileel, J., Trager, M., & Bruna, J. (2019)**  

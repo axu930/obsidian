@@ -9,6 +9,7 @@ Theoretical stuff--e.g. ML theory, theoretical assurances, etc.
 # ML Practice
 Methods for sampling or otherwise using already trained networks (e.g. ddpm/ddim)
 - Jacobi decoding https://arxiv.org/pdf/2403.00835, https://lmsys.org/blog/2023-11-21-lookahead-decoding/,
+- "Zero data" RL https://www.arxiv.org/pdf/2505.03335
 #### ML Scaling
 Techniques for scaling up training--ddp, fsdp, etc. 
 - https://jax-ml.github.io/scaling-book/index
