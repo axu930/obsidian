@@ -1,5 +1,5 @@
 # ChatGPT outputs
-A place to store the ChatGPT slop that is marginally more useful than google search. 
+A place to store the ChatGPT/Gemini/Claude slop that is the modern equivalent of google+wikipedia
 
 %% Begin Waypoint %%
 - [[Alternatives to Softmax]]
