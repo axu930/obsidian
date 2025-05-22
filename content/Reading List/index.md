@@ -10,7 +10,7 @@ Theoretical stuff--e.g. ML theory, theoretical assurances, etc.
 - Spectral bias of neural networks (i.e. low frequency things learned first ) https://arxiv.org/pdf/1806.08734
 # ML Practice
 Methods for sampling or otherwise using already trained networks (e.g. ddpm/ddim)
-- Jacobi decoding https://arxiv.org/pdf/2403.00835, https://lmsys.org/blog/2023-11-21-lookahead-decoding/,
+- Jacobi decoding (consistency LLMs) https://arxiv.org/pdf/2403.00835, https://lmsys.org/blog/2023-11-21-lookahead-decoding/,
 - "Zero data" RL https://www.arxiv.org/pdf/2505.03335
 -  Muon optimizer (beats AdamW) https://kellerjordan.github.io/posts/muon/
 - Gradient clipping https://arxiv.org/pdf/1905.11881
