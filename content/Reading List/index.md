@@ -10,17 +10,22 @@ Theoretical stuff--e.g. ML theory, theoretical assurances, etc.
 - Spectral bias of neural networks (i.e. low frequency things learned first ) https://arxiv.org/pdf/1806.08734
 # ML Practice
 Methods for sampling or otherwise using already trained networks (e.g. ddpm/ddim)
-- Jacobi decoding (consistency LLMs) https://arxiv.org/pdf/2403.00835, https://lmsys.org/blog/2023-11-21-lookahead-decoding/,
+
+#### Training 
 - "Zero data" RL https://www.arxiv.org/pdf/2505.03335
 -  Muon optimizer (beats AdamW) https://kellerjordan.github.io/posts/muon/
 - Gradient clipping https://arxiv.org/pdf/1905.11881
 - Gradient descent on the edge of stability https://arxiv.org/pdf/2103.00065
+
+#### Fast inference
+- Jacobi decoding (consistency LLMs) https://arxiv.org/pdf/2403.00835, https://github.com/hao-ai-lab/Consistency_LLM
+- Lookahead decoding https://lmsys.org/blog/2023-11-21-lookahead-decoding/, https://github.com/hao-ai-lab/LookaheadDecoding
+- LayerSkip https://arxiv.org/pdf/2404.16710
 - Native sparse attention https://arxiv.org/pdf/2502.11089
 
 #### Model Distillation
 Structured pruning, unstructured pruning, quantization, bitnet, etc. for low compute/memory inference
 - Truncation-aware SVD https://arxiv.org/pdf/2403.07378
-- 
 
 #### ML Scaling
 Techniques for scaling up training--ddp, fsdp, etc. 
